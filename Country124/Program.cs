@@ -44,13 +44,13 @@ namespace Country124
                 switch ((mok / minus) % 3)
                 {
                     case 0:
-                        answer += "1";
+                        answer = "1" + answer;
                         break;
                     case 1:
-                        answer += "2";
+                        answer = "2" + answer;
                         break;
                     case 2:
-                        answer += "4";
+                        answer = "4" + answer;
                         break;
                     default:
                         break;
@@ -59,13 +59,7 @@ namespace Country124
                 mok = mok - minus;
             }
 
-            //string 거꾸로
-            string RealAnswer = "";
-            for (int i = 1; i <= answer.Length; i++)
-            {
-                RealAnswer += answer[answer.Length - i];
-            }
-            return RealAnswer;
+            return answer;
         }
     }
 }

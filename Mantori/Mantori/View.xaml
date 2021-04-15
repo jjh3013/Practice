@@ -1,0 +1,29 @@
+﻿<Window x:Class="Mantori.View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mantori"
+        mc:Ignorable="d"
+        Title="IDL 만들기" Height="200" Width="500">
+
+    <Grid Margin="10,30,10,20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Text="{Binding Find_Path}" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3" FontSize="13" TextWrapping="Wrap"/>
+        <Button Command="{Binding Button_Click_Find}" Content="파일찾기" Grid.Row="0" Grid.Column="3" FontWeight="Bold" FontSize="15"/>
+        <Button Command="{Binding Button_Click_Convert}" Content="변환" Grid.Row="2" Grid.Column="3" FontWeight="Bold" FontSize="15"/>
+
+    </Grid>
+</Window>
