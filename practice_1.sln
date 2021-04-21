@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "practice_2", "practice_2\pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Country124", "Country124\Country124.csproj", "{C5A5B6B1-E262-4962-94B2-F75EF63AF642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree", "SkillTree\SkillTree.csproj", "{27D9E089-E130-403A-88E3-C7450F000B3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree", "SkillTree\SkillTree.csproj", "{27D9E089-E130-403A-88E3-C7450F000B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNumber", "NNumber\NNumber.csproj", "{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{27D9E089-E130-403A-88E3-C7450F000B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D9E089-E130-403A-88E3-C7450F000B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27D9E089-E130-403A-88E3-C7450F000B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
