@@ -18,20 +18,52 @@ namespace SkillTree
             int solution(string skill, string[] skill_trees)
             {
                 int answer = 0;
-                int SkillPoint = 0;
+                int SkillPoint;
+                int SameSkill;
 
                 for (int i = 0; i < skill_trees.Length; i++)
                 {
                     SkillPoint = 0;
                     for (int j = 0; j < skill_trees[i].Length; j++)
                     {
+                        if (SkillPoint == skill.Length)
+                        {
+                            answer++;
+                            break;
+                        }
+
+                        SameSkill = 0;
+
+                        for (int k = 0; k < skill.Length; k++)
+                        {
+                            if(skill[k] == skill_trees[i][j])
+                            {
+                                SameSkill = 1;
+                                break;
+                            }
+                        }
+                        if(SameSkill == 0)
+                        {
+
+                        }
+                        else if (skill[SkillPoint] == skill_trees[i][j])
+                        {
+                            SkillPoint++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+
+                        if(j == skill_trees[i].Length-1)
+                        {
+                            answer++;
+                            break;
+                        }
                     }
                 }
-
-
                 return answer;
             }
-
         }
     }
 }
