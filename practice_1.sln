@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree", "SkillTree\Skil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NNumber", "NNumber\NNumber.csproj", "{68F733A4-2A7D-49C6-B9AB-5E64D58E6987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFactorial", "RecursionFactorial\RecursionFactorial.csproj", "{AC1E2D01-BBA6-47BE-B762-1BCDCDFDCD2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionFactorial", "RecursionFactorial\RecursionFactorial.csproj", "{AC1E2D01-BBA6-47BE-B762-1BCDCDFDCD2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFibonacci", "RecursionFibonacci\RecursionFibonacci.csproj", "{D3DF9B53-AF46-4DEC-89E4-16E06504A30E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionFibonacci", "RecursionFibonacci\RecursionFibonacci.csproj", "{D3DF9B53-AF46-4DEC-89E4-16E06504A30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionStar", "RecursionStar\RecursionStar.csproj", "{ED96A1A9-6CA9-4C15-84A5-68F792CCB568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D3DF9B53-AF46-4DEC-89E4-16E06504A30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DF9B53-AF46-4DEC-89E4-16E06504A30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DF9B53-AF46-4DEC-89E4-16E06504A30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED96A1A9-6CA9-4C15-84A5-68F792CCB568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED96A1A9-6CA9-4C15-84A5-68F792CCB568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED96A1A9-6CA9-4C15-84A5-68F792CCB568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED96A1A9-6CA9-4C15-84A5-68F792CCB568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
