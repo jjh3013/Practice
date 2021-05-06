@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigMan", "BigMan\BigMan.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "Chess\Chess.csproj", "{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie666", "Movie666\Movie666.csproj", "{745D871D-B641-4AB4-A4E4-9DFA6181D879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
