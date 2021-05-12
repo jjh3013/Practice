@@ -21,15 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionStar", "RecursionS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionHanoi", "RecursionHanoi\RecursionHanoi.csproj", "{EBD81B6E-F1D0-403D-B633-128729D247B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack\BlackJack.csproj", "{FE12684D-940A-4D9A-B18C-E924BABD8B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack", "BlackJack\BlackJack.csproj", "{FE12684D-940A-4D9A-B18C-E924BABD8B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecomNum", "DecomNum\DecomNum.csproj", "{07B8B596-CE3C-4B37-B1E1-2E334C5942DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecomNum", "DecomNum\DecomNum.csproj", "{07B8B596-CE3C-4B37-B1E1-2E334C5942DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigMan", "BigMan\BigMan.csproj", "{D1C5F545-E707-46FB-AC67-4DFE18A7CEEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigMan", "BigMan\BigMan.csproj", "{D1C5F545-E707-46FB-AC67-4DFE18A7CEEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "Chess\Chess.csproj", "{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess", "Chess\Chess.csproj", "{6B4A6C23-86CF-4E7B-B6B3-F59DCAFF907C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie666", "Movie666\Movie666.csproj", "{745D871D-B641-4AB4-A4E4-9DFA6181D879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie666", "Movie666\Movie666.csproj", "{745D871D-B641-4AB4-A4E4-9DFA6181D879}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumSort_1", "NumSort_1\NumSort_1.csproj", "{ABF1460C-82D6-4A1C-A78B-7DFDB3E78799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics", "Statistics\Statistics.csproj", "{4041B84D-3081-41C6-A0EE-C282A37C4D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745D871D-B641-4AB4-A4E4-9DFA6181D879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF1460C-82D6-4A1C-A78B-7DFDB3E78799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF1460C-82D6-4A1C-A78B-7DFDB3E78799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF1460C-82D6-4A1C-A78B-7DFDB3E78799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF1460C-82D6-4A1C-A78B-7DFDB3E78799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4041B84D-3081-41C6-A0EE-C282A37C4D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4041B84D-3081-41C6-A0EE-C282A37C4D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4041B84D-3081-41C6-A0EE-C282A37C4D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4041B84D-3081-41C6-A0EE-C282A37C4D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
