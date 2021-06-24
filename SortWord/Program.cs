@@ -8,11 +8,8 @@ namespace SortWord
         static void Main(string[] args)
         {
             int Num = Convert.ToInt32(Console.ReadLine());
-
             string[] sortWord = new string[Num];
-
             StringBuilder S_Build = new StringBuilder();
-
             for (int i = 0; i < Num; i++)
             {
                 sortWord[i] = Console.ReadLine();
@@ -40,7 +37,6 @@ namespace SortWord
                             sortWord[j] = temp;
                             break;
                         }
-
                     }
                 }
             }
@@ -48,7 +44,6 @@ namespace SortWord
             {
                 S_Build.Append(sortWord[i] + "\n");
             }
-
             Console.WriteLine(S_Build);
         }
     }

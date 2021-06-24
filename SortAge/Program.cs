@@ -8,14 +8,10 @@ namespace SortAge
         static void Main(string[] args)
         {
             int Num = Convert.ToInt32(Console.ReadLine());
-
             string[] sortAge = new string[200];
-
             StringBuilder S_Build = new StringBuilder();
-
             int age = 0;
             string name;
-
             for (int i = 0; i < Num; i++)
             {
                 name = Console.ReadLine();
@@ -26,9 +22,7 @@ namespace SortAge
                     sortAge[age] = name;
                 else
                 sortAge[age] = sortAge[age] + " " + name;
-
             }
-
             for (int i = 0; i < 200; i++)
             {
                 if (sortAge[i] != null)
@@ -39,7 +33,6 @@ namespace SortAge
                     }
                 }
             }
-
             Console.WriteLine(S_Build);
         }
     }
