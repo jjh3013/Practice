@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Make_One", "Make_One\Make_O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electric_Flex", "Electric_Flex\Electric_Flex.csproj", "{B83775B9-D8A9-4183-98AA-A961185C9332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueSum", "ContinueSum\ContinueSum.csproj", "{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinueSum", "ContinueSum\ContinueSum.csproj", "{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalBackpack", "NormalBackpack\NormalBackpack.csproj", "{BA067D59-E7A4-483B-B9D0-434C5975866E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA067D59-E7A4-483B-B9D0-434C5975866E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA067D59-E7A4-483B-B9D0-434C5975866E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA067D59-E7A4-483B-B9D0-434C5975866E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA067D59-E7A4-483B-B9D0-434C5975866E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
