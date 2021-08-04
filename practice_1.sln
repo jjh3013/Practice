@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stair_Up", "Stair_Up\Stair_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Make_One", "Make_One\Make_One.csproj", "{9A284B62-5518-4381-AC56-29218C8CB440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electric_Flex", "Electric_Flex\Electric_Flex.csproj", "{B83775B9-D8A9-4183-98AA-A961185C9332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electric_Flex", "Electric_Flex\Electric_Flex.csproj", "{B83775B9-D8A9-4183-98AA-A961185C9332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueSum", "ContinueSum\ContinueSum.csproj", "{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{B83775B9-D8A9-4183-98AA-A961185C9332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B83775B9-D8A9-4183-98AA-A961185C9332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B83775B9-D8A9-4183-98AA-A961185C9332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3CC345-F7B3-47CF-9896-CE88CA8E50FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
